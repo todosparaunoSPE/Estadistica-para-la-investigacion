@@ -297,3 +297,5 @@ elif exercise == 'Ejercicio 12':
     st.write(f'P(X < {x2}) = CDF({x2})')
     st.write(f'**Resultado:** La fracción de baterías que durará más de {x1} días es {prob_more_680:.4f} y la fracción que fallará antes de {x2} días es {prob_less_560:.4f}')
 
+
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")

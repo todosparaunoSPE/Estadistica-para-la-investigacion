@@ -216,7 +216,7 @@ elif exercise == 'Ejercicio 9':
     st.write('P(X ≤ x) = 1 - e^(-rate * x)')
     
     st.write('**Sustitución de los datos en la fórmula:**')
-    st.write(f'P(X ≤ {x}) = 1 - e^(-{rate} * {x})')
+    st.write(f'P(X ≤ {x}) = 1 - e^(-{rate} * {x})') = 0.28347
     st.write(f'**Resultado:** El porcentaje de garantías es {prob * 100:.2f}%')
 
 elif exercise == 'Ejercicio 10':

@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import scipy.stats as sp
 
-st.title('Ejercicios de Probabilidad y Estadística')
+st.title('Ejercicios de Estadística para la investigación')
 
 exercise = st.sidebar.selectbox(
     'Selecciona un ejercicio:',

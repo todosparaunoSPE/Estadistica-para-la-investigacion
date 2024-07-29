@@ -210,7 +210,7 @@ elif exercise == 'Ejercicio 9':
     mu = 3
     x = 1
     rate = 1 / mu
-    prob = 1 - sp.expon.cdf(x, scale=mu)
+    prob = sp.expon.cdf(x, scale=mu)
     
     st.write('**Fórmula:**')
     st.write('P(X ≤ x) = 1 - e^(-rate * x)')
